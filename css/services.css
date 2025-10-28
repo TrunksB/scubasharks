@@ -1,0 +1,73 @@
+
+
+.list_of_services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 30px;
+}
+.list_of_services_item1 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 7px;
+}
+.list_of_services_item2 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 7px;
+}
+.list_of_services_item3 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 7px;
+}
+.list_of_services_item4 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 7px;
+}
+.list_of_services_item5 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 2;
+    grid-row: 2;
+    padding: 7px;
+}
+.list_of_services_item6 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 3;
+    grid-row: 2;
+    padding: 7px;
+}
+.list_of_services_item7 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 1;
+    grid-row: 3;
+    padding: 7px;
+}
+.list_of_services_item8 {
+    background-color: rgba(127, 255, 212, 0.353);
+    border-radius: 20px;
+    border-style: groove;
+    grid-column: 2;
+    grid-row: 3;
+    padding: 7px;
+}

@@ -1,0 +1,40 @@
+
+
+.here_to_help {
+    background-color: rgba(128, 128, 128, 0.601);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 2px;
+}
+
+.here_to_help_item1 {
+    grid-column: 1;
+    color: rgb(2, 97, 2);
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 150px 20px; */
+}
+.here_to_help_item2 {
+    grid-column: 2;
+    background-image: url(../images/contact_us01.jpeg);
+    background-size: 100% 100%;
+}
+
+.contact_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 105px;
+    padding: 25px 270px;
+}
+.contact_details_item1 {
+    background-color: rgba(255, 248, 220, 0.856);
+    border-radius: 18px;
+    border-style: groove;
+    padding: 5px 40px;
+}
+.contact_details_item2 {
+    background-color: rgba(255, 248, 220, 0.856);
+    border-radius: 18px;
+    border-style: groove;
+    padding: 5px 40px;
+}
