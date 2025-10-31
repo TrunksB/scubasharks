@@ -71,3 +71,96 @@
     grid-row: 3;
     padding: 7px;
 }
+.services_container1{
+    text-align: start; 
+    min-height: 500PX; 
+    padding: 3px 100px;
+}
+.services_note1{
+    font-size: 19px; 
+    color: rgba(19, 7, 61, 0.918);
+}
+
+
+@media (max-width: 770px) {
+
+    .services_container1{
+        text-align: start; 
+        padding: 3px 10px;
+    }
+    .services_note1{
+        text-align: justify;
+    }
+
+    .list_of_services {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        row-gap: 6px;
+    }
+    .list_of_services_item1 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 1;
+        padding: 7px;
+    }
+    .list_of_services_item2 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 2;
+        padding: 7px;
+    }
+    .list_of_services_item3 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 3;
+        padding: 7px;
+    }
+    .list_of_services_item4 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 4;
+        padding: 7px;
+    }
+    .list_of_services_item5 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 5;
+        padding: 7px;
+    }
+    .list_of_services_item6 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 6;
+        padding: 7px;
+    }
+    .list_of_services_item7 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 7;
+        padding: 7px;
+    }
+    .list_of_services_item8 {
+        background-color: rgba(127, 255, 212, 0.353);
+        border-radius: 20px;
+        border-style: groove;
+        grid-column: 1;
+        grid-row: 8;
+        padding: 7px;
+    }
+
+}

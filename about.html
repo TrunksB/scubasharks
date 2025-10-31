@@ -9,7 +9,7 @@
     <link href="css/about.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="first_ribbon">
+    <!-- div class="first_ribbon">
         <div class="first_ribbon_item1">
             <a class="a_invisible" href="index.html">
             <img class="profile_image01" src="images/SSU logo 003.PNG" /> </a>
@@ -21,10 +21,33 @@
             <a href="about.html" style="font-size: 13px; margin: 5px;"> About </a> &nbsp;
             <a href="contact.html" style="font-size: 13px; margin: 5px;"> Contact Us </a> &nbsp;
         </div>
-    </div><hr style="border: solid black;"/>
-    <div style="text-align: start; min-height: 500PX;">
+    </div -->
+    
+     <!--  Adding the sidebar visible on smart phones screens  -->
+    <nav>
+        <ul class="side_bar">
+            <li class="closeButton" onclick=hidesidebar()><img src="images/icons/close.png" /></li>
+            <li><a class="a_navigation" href="index.html">Home</a></li>
+            <li><a class="a_navigation" href="services.html">Services</a></li>
+            <li><a class="a_navigation" href="contact.html">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li class="companyName"><a class="a_navigation" href="index.html">
+                <img class="profile_image01" src="images/SSU logo 003.PNG" /> &nbsp;&nbsp;&nbsp;
+                <h2 class="scubasharks">SCUBA SHARKS UGANDA</h2>
+            </a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="services.html">Services</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="#">About</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="contact.html">Contact Us</a></li>
+            <li class="hideoncomputer" onclick=showsidebar() style="padding-top: 20px;"><img src="images/icons/menu.png " width="26px" height="26px"/></li>
+            
+        </ul>
+    </nav>
+
+    <hr style="border: solid black;"/>
+    <div class="about_container1">
         <h2 style="color: blue; font-size: 22px; text-align: center;">About Us</h2>
-        <div class="introduction">
+        <div class="about_introduction">
             Scuba Sharks Uganda is a specialist underwater services provider to its offshore (Oil & Gas), onshore, Civil,
             Marine and Shipping Clients. Ideology behind the formation of this company was to provide all sorts of quality,
             cost effective and standard services to the owners as an extended arm of the owner, rather than a mere service
@@ -97,9 +120,9 @@
         
         <div class="footer_item4">
             Contact Us: <br/> <br/>
-            &#128231; &nbsp; Email: ssharksuganda@gmail.com <br/>
-            &#128222; &nbsp; Tel: +256 703 528 568 <br/>
-            &#128222; &nbsp; Tel: +256 777 976 735
+            <img src="images/icons/mail.png"> &nbsp; Email: ssharksuganda@gmail.com <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 703 528 568 <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 777 976 735
         </div>
         <br/>
         <br/>

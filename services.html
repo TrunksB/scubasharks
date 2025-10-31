@@ -9,7 +9,7 @@
     <link href="css/services.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="first_ribbon">
+    <!-- div class="first_ribbon">
         <div class="first_ribbon_item1">
             <a class="a_invisible" href="index.html">
             <img class="profile_image01" src="images/SSU logo 003.PNG" /> </a>
@@ -21,11 +21,33 @@
             <a href="about.html" style="font-size: 13px; margin: 5px;"> About </a> &nbsp;
             <a href="contact.html" style="font-size: 13px; margin: 5px;"> Contact Us </a> &nbsp;
         </div>
-    </div><hr style="border: solid black;"/>
+    </div -->
+    <!--  Adding the sidebar visible on smart phones screens  -->
+    <nav>
+        <ul class="side_bar">
+            <li class="closeButton" onclick=hidesidebar()><img src="images/icons/close.png" /></li>
+            <li><a class="a_navigation" href="index.html">Home</a></li>
+            <li><a class="a_navigation" href="about.html">About</a></li>
+            <li><a class="a_navigation" href="contact.html">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li class="companyName"><a class="a_navigation" href="index.html">
+                <img class="profile_image01" src="images/SSU logo 003.PNG" /> &nbsp;&nbsp;&nbsp;
+                <h2 class="scubasharks">SCUBA SHARKS UGANDA</h2>
+            </a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="#">Services</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="about.html">About</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="contact.html">Contact Us</a></li>
+            <li class="hideoncomputer" onclick=showsidebar() style="padding-top: 20px;"><img src="images/icons/menu.png " width="26px" height="26px"/></li>
+            
+        </ul>
+    </nav>
+    
+    <hr style="border: solid black;"/>
     <div style="text-align: center;">
         <h3 style="font-size: 22px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: blue;"> Services</h3>
-        <div style="text-align: start; min-height: 500PX; padding: 3px 100px;">
-            <div style="font-size: 19px; color: rgba(19, 7, 61, 0.918);">
+        <div class="services_container1">
+            <div class="services_note1">
             Diving and underwater Services are the core activities of the company. We are fully equipped to provide a
             comprehensive range of diving services to undertake any kind of underwater work. Our teams are led by highly
             talented and industry experienced people and supported by very competent personnel, trained to meet
@@ -134,9 +156,9 @@
         
         <div class="footer_item4">
             Contact Us: <br/> <br/>
-            &#128231; &nbsp; Email: ssharksuganda@gmail.com <br/>
-            &#128222; &nbsp; Tel: +256 703 528 568 <br/>
-            &#128222; &nbsp; Tel: +256 777 976 735
+            <img src="images/icons/mail.png"> &nbsp; Email: ssharksuganda@gmail.com <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 703 528 568 <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 777 976 735
         </div>
         <br/>
         <br/>

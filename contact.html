@@ -9,7 +9,7 @@
     <link href="css/contact.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="first_ribbon">
+    <!-- div class="first_ribbon">
         <div class="first_ribbon_item1">
             <a class="a_invisible" href="index.html">
             <img class="profile_image01" src="images/SSU logo 003.PNG" /> </a>
@@ -22,8 +22,31 @@
             <a href="about.html" style="font-size: 13px; margin: 5px;"> About </a> &nbsp;
             <a href="contact.html" style="font-size: 13px; margin: 5px;"> Contact Us </a> &nbsp;
         </div>
-    </div><hr style="border: solid black;"/>
-    <div style="text-align: center; min-height: 500PX;">
+    </div -->
+    
+     <!--  Adding the sidebar visible on smart phones screens  -->
+    <nav>
+        <ul class="side_bar">
+            <li class="closeButton" onclick=hidesidebar()><img src="images/icons/close.png" /></li>
+            <li><a class="a_navigation" href="index.html">Home</a></li>
+            <li><a class="a_navigation" href="services.html">Services</a></li>
+            <li><a class="a_navigation" href="about.html">About</a></li>
+        </ul>
+        <ul>
+            <li class="companyName"><a class="a_navigation" href="index.html">
+                <img class="profile_image01" src="images/SSU logo 003.PNG" /> &nbsp;&nbsp;&nbsp;
+                <h2 class="scubasharks">SCUBA SHARKS UGANDA</h2>
+            </a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="services.html">Services</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="about.html">About</a></li>
+            <li class="hideOnMobile"><a class="a_navigation" href="#">Contact Us</a></li>
+            <li class="hideoncomputer" onclick=showsidebar() style="padding-top: 20px;"><img src="images/icons/menu.png " width="26px" height="26px"/></li>
+            
+        </ul>
+    </nav>
+
+    <hr style="border: solid black;"/>
+    <div class="contact_container1">
         <div class="here_to_help">
             <div class="here_to_help_item1"><br/><br/>
                 We're here to help <br/>
@@ -63,21 +86,21 @@
             <h5>&nbsp;&nbsp;&nbsp; Delivering excellence</h5>
         </div>
         <div class="footer_item2">
-            Location: <br/> <br/>
+            Location: <br/>
             &#128205; &nbsp; Butembe Nyenga <br/>
             &#128205; &nbsp; Buikwe Uganda <br/>
             &nbsp; &nbsp; &nbsp; P.O. Box 903062
         </div>
-        <div class="footer_item3">
-            Useful links: <br/> <br/>
-            <a class="a_invisible" href="https://www.fcoa.online">Freediving Caoches of Asia</a> <br/>
+        <div class="footer_item3"><br/>
+            Useful links: <br/>
+            <a class="a_invisible" href="https://www.fcoa.online">Freediving Caoches of Asia</a>
         </div>
         
         <div class="footer_item4">
-            Contact Us: <br/> <br/>
-            &#128231; &nbsp; Email: ssharksuganda@gmail.com <br/>
-            &#128222; &nbsp; Tel: +256 703 528 568 <br/>
-            &#128222; &nbsp; Tel: +256 777 976 735
+            Contact Us: <br/>
+            <img src="images/icons/mail.png"> &nbsp; Email: ssharksuganda@gmail.com <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 703 528 568 <br/>
+            <img src="images/icons/call.png"> &nbsp; Tel: +256 777 976 735
         </div>
         <br/>
         <br/>
